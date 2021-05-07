@@ -1,0 +1,27 @@
+body{
+    
+}
+
+.banner-imgs{
+    
+    border-radius: 4px;
+}
+
+.intro{
+    margin-top: 3em;
+    background-color: lightblue;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#our-articles{
+}
+
+.my-cards{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
