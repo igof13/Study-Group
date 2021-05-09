@@ -10,7 +10,7 @@ body{
 .intro{
     margin-top: 3em;
     background-color: lightblue;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,20 @@ body{
 }
 
 .my-cards{
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+}
+
+.my-footer{
+    height: 30vh;
+    background-color: lightblue;
+}
+
+.footer-items{
+    text-align: center;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
