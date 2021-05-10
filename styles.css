@@ -1,5 +1,5 @@
 body{
-    
+    background-color: #fdfdfd;
 }
 
 .banner-imgs{
@@ -21,15 +21,26 @@ body{
 }
 
 .my-cards{
+    max-width: 90%;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    transition: transform 1s;
+}
+
+.my-cards:hover{
+    transform: scale(1.1);
+    max-width: 100%;
+    transition: box-shadow .5s;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    z-index: 10;
 }
 
 .my-footer{
-    height: 30vh;
-    background-color: lightblue;
+    margin-top: 1em;
+    height: 100%;
+    background-color: lightblue
 }
 
 .footer-items{
@@ -37,4 +48,5 @@ body{
     padding-top: 1em;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.8em;
 }
