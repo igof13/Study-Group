@@ -75,13 +75,25 @@
   </div>
 
   <div class="container-fluid intro">
-    <h3 class="justify-content-center" style="font-size: 2em;">Nossos Artigos</h3>
+    <div class="row">
+      <div class="col-12" style="margin-bottom: 1em;">
+        <h3 class="justify-content-center" style="font-size: 2em; margin-top:0.6em;">Nossos Artigos</h3>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12 theme-list justify-content-center">
+          <button onclick="showTheme()" class="theme theme-btn">Todos</button>
+          <button onclick="showTheme('commerce')" class="theme theme-btn">Comércio</button>
+          <button onclick="showTheme('law')" class="theme theme-btn">Legislação</button>
+          <button onclick="showTheme('theory')" class="theme theme-btn">Teoria</button>
+      </div>
+    </div>
   </div>
 
   <div class="container mt-5">
     <div class="row">
-      <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+      <div class="col-lg-3 col-md-4 theme" >
+        <div class="card my-cards" style="display:block;" id="law">
           <img src="https://picsum.photos/350/220?random=1" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -92,8 +104,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+      <div class="col-lg-3 col-md-4 theme">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=2" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -104,8 +116,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+      <div class="col-lg-3 col-md-4 theme">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=3" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -117,7 +129,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="img/euro.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -130,7 +142,7 @@
       </div>
     
       <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=4" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -142,7 +154,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=5" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -154,7 +166,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=6" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -166,7 +178,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-4">
-        <div class="card my-cards">
+        <div class="card my-cards" style="display:block;" id="commerce">
           <img src="https://picsum.photos/350/220?random=7" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
